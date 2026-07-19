@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Personal Portfolio | Sharon Lugun</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(to right,#dbeafe,#f8fbff);
+color:#333;
+}
+
+/* Header */
+
+header{
+background:#0f172a;
+color:white;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+/* Hero */
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:60px;
+flex-wrap:wrap;
+}
+
+.hero img{
+width:220px;
+height:220px;
+border-radius:50%;
+border:6px solid white;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+margin-right:40px;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero h1{
+font-size:45px;
+color:#0f172a;
+}
+
+.hero p{
+margin-top:15px;
+font-size:18px;
+line-height:1.6;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+
+.btn:hover{
+background:#1d4ed8;
+}
+
+/* Cards */
+
+.card{
+background:white;
+width:90%;
+margin:30px auto;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+h2{
+color:#0f172a;
+margin-bottom:20px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+table,th,td{
+border:1px solid #ccc;
+}
+
+th{
+background:#2563eb;
+color:white;
+}
+
+th,td{
+padding:12px;
+text-align:center;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+
+.skill{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:10px 18px;
+margin:8px;
+border-radius:20px;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.social a{
+font-size:30px;
+margin-right:15px;
+color:#2563eb;
+}
+
+.social a:hover{
+color:#0f172a;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header>
+
+<nav>
+
+<h2>My Portfolio</h2>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!-- Hero Section -->
+
+<div class="hero" id="top">
+
+<img src="profile.jpg" alt="Profile Picture">
+
+<div class="hero-text">
+
+<h1>Sharon Lugun</h1>
+
+<p>
+Computer Science Engineering Student passionate about
+Software Development, Java Programming, UI/UX Design
+and Web Development.
+</p>
+
+<a href="#about" class="btn">Know More</a>
+
+</div>
+
+</div>
+
+<!-- About -->
+
+<div class="card" id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+Hello! I am Sharon Lugun, currently pursuing B.Tech in
+Computer Science Engineering at Karunya Institute of
+Technology and Sciences.
+
+I enjoy learning new technologies, solving real-world
+problems and building attractive websites.
+
+</p>
+
+<br>
+
+<p>
+
+This portfolio demonstrates my educational background,
+technical skills, projects and contact information.
+
+</p>
+
+<br>
+
+<p>
+
+External Link :
+<a href="https://www.linkedin.com/in/sharon-lugun-074215324/"
+target="_blank">
+Visit My LinkedIn
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+Clickable Image Link
+
+</p>
+
+<a href="https://github.com/sharonlugun4"
+target="_blank">
+
+<img src="profile.jpg"
+width="120">
+
+</a>
+
+</div>
+<!-- ================= EDUCATION SECTION ================= -->
+
+<div class="card" id="education">
+
+<h2>Educational Qualification</h2>
+
+<p>
+The following table shows my educational qualifications.
+</p>
+
+<table>
+
+<tr>
+<th>Qualification</th>
+<th>Institution</th>
+<th>Year</th>
+<th>Percentage / CGPA</th>
+</tr>
+
+<tr>
+<td>B.Tech - Computer Science Engineering</td>
+<td>Karunya Institute of Technology and Sciences</td>
+<td>2024 - Present</td>
+<td>8.5 CGPA</td>
+</tr>
+
+<tr>
+<td>Higher Secondary</td>
+<td>St. Paul's school</td>
+<td>2024</td>
+<td>90%</td>
+</tr>
+
+<tr>
+<td>Secondary School</td>
+<td>Carmel school</td>
+<td>2022</td>
+<td>92%</td>
+</tr>
+
+</table>
+
+</div>
+
+<!-- ================= SKILLS SECTION ================= -->
+
+<div class="card" id="skills">
+
+<h2>Technical Skills</h2>
+
+<p>My technical skills are listed below.</p>
+
+<div>
+
+<span class="skill">HTML5</span>
+
+<span class="skill">CSS3</span>
+
+<span class="skill">Java</span>
+
+<span class="skill">Python</span>
+
+<span class="skill">JavaScript</span>
+
+<span class="skill">UI/UX</span>
+
+<span class="skill">GitHub</span>
+
+</div>
+
+<br>
+
+<h3>Nested Unordered List</h3>
+
+<ul>
+
+<li>Programming Languages
+
+<ul>
+
+<li>Java</li>
+
+<li>Python</li>
+
+<li>C</li>
+
+</ul>
+
+</li>
+
+<li>Web Technologies
+
+<ul>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>JavaScript</li>
+
+</ul>
+
+</li>
+
+<li>Tools
+
+<ul>
+
+<li>VS Code</li>
+
+<li>GitHub</li>
+
+<li>Figma</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</div>
+
+<!-- ================= PROJECT SECTION ================= -->
+
+<div class="card" id="projects">
+
+<h2>Projects</h2>
+
+<p>
+Below are some of the projects that I have completed.
+</p>
+
+<h3>Nested Ordered List</h3>
+
+<ol>
+
+<li>Web Development
+
+<ol>
+
+<li>Personal Portfolio Website</li>
+
+<li>Student Management System</li>
+
+</ol>
+
+</li>
+
+<li>IoT Projects
+
+<ol>
+
+<li>Smart Water Quality Monitoring System</li>
+
+<li>Weather Monitoring System</li>
+
+</ol>
+
+</li>
+
+<li>Programming Projects
+
+<ol>
+
+<li>Library Management System</li>
+
+<li>Hospital Management System</li>
+
+</ol>
+
+</li>
+
+</ol>
+
+</div>
+
+<!-- ================= DESCRIPTION LIST ================= -->
+
+<div class="card">
+
+<h2>Technical Terms</h2>
+
+<p>
+Description List Example
+</p>
+
+<dl>
+
+<dt><b>HTML</b></dt>
+
+<dd>
+HyperText Markup Language used to create webpages.
+</dd>
+
+<br>
+
+<dt><b>CSS</b></dt>
+
+<dd>
+Cascading Style Sheets used to style webpages.
+</dd>
+
+<br>
+
+<dt><b>JavaScript</b></dt>
+
+<dd>
+Programming language used to make webpages interactive.
+</dd>
+
+<br>
+
+<dt><b>UI/UX</b></dt>
+
+<dd>
+User Interface and User Experience design improve website usability.
+</dd>
+
+</dl>
+
+</div>
+
+<!-- ================= ACHIEVEMENTS SECTION ================= -->
+
+<div class="card">
+
+<h2>Achievements</h2>
+
+<p>
+
+Some of my achievements include:
+
+</p>
+
+<ul>
+
+<li>Completed Java Programming Internship</li>
+
+<li>Participated in Hackathons</li>
+
+<li>Completed Data Science Projects</li>
+
+<li>Developed Personal Portfolio Website</li>
+
+<li>Learning UI/UX Design</li>
+
+</ul>
+
+</div>
+<!-- ================= CONTACT SECTION ================= -->
+
+<div class="card" id="contact">
+
+<h2>Contact Me</h2>
+
+<p>
+Feel free to connect with me through the following platforms.
+</p>
+
+<br>
+
+<p>
+<strong>Email:</strong>
+
+<a href="mailto:sharonlugun19@gmail.com">
+sharonlugun19@gmail.com
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+<strong>Phone:</strong>
+
+<a href="tel:+919938783797">
++91 9938783797
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+<strong>LinkedIn:</strong>
+
+<a href="https://www.linkedin.com/in/sharon-lugun-074215324/">
+
+https://www.linkedin.com/in/sharon-lugun-074215324/
+
+</a>
+
+</p>
+
+<br>
+
+<p>
+
+<strong>GitHub:</strong>
+
+<a href="https://github.com/sharonlugun4"
+target="_blank">
+
+https://github.com/sharonlugun4
+
+</a>
+
+</p>
+
+<br>
+
+<div class="social">
+
+<a href="https://github.com/sharonlugun4" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/sharon-lugun-074215324/"
+target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:sharonlugun19@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= BOOKMARK LINK ================= -->
+
+<div class="card">
+
+<h2>Quick Navigation</h2>
+
+<p>
+
+<a href="#top" class="btn">
+
+⬆ Back to Top
+
+</a>
+
+</p>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>Thank You for Visiting My Portfolio!</h3>
+
+<br>
+
+<p>
+
+© 2026 Sharon Lugun | Personal Portfolio Website
+
+</p>
+
+<br>
+
+<p>
+
+Designed using HTML5 and Internal CSS
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
